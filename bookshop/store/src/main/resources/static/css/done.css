@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main{
+        
+        height: 600px;
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content:left;
+    }
+    a{
+        text-decoration:wavy;
+    }
+    body
+    {
+		background-image: url(../images/dino.jpg);
+		background-position: center;
+        background-size: cover;
+	}

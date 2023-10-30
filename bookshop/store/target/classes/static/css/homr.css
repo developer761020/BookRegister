@@ -1,0 +1,56 @@
+@charset "UTF-8";
+ *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            
+            height: 647px;
+            width: 1362px;
+        }
+        .reg{
+            
+            height: 160px;
+            width: 1360px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .avail{
+            
+            height: 160px;
+            width: 1360px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .upd{
+            
+            height: 160px;
+            width: 1360px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .det{
+            
+            height: 150px;
+            width: 1360px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a:hover{
+            border: 1px solid rgb(57, 57, 96);
+            border-radius: 10px;
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+	 		background-image:url(../images/bookstore.jpg);
+            background-position: center;
+            background-size: cover;
+		}

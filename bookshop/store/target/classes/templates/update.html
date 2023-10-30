@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/update.css">
+</head>
+
+<body>
+	   <div class="reg">    
+      <h1 class="h"><span>Update Book</span></h1>
+
+	  <form action="/send" method="post"
+      th:object="${book}">
+
+      <h3><b><span>Book ID</span></b></h3>
+      <input   class="box" type="text" name="id" >
+      
+      <h3><b><span>Book Name</span></b></h3>
+      <input class="box" type="text" name="name" >
+
+      <h3><b><span>Author</span></b></h3>
+      <input class="box" type="text" name="author" >
+
+      <h3><b><span>Language</span></b></h3>
+      <input class="box" type="text" name="language" >
+
+      <h3><b><span>Pages</span></b></h3>
+      <input class="box" type="number" name="pages" >
+
+      <h3><b><span>Price</span></b></h3>
+      <input class="box" type="number" name="price"  ><br><br>
+
+      <input class="sub" type="submit" value="Update">
+     </form>
+     </div>
+
+</body>
+</html>

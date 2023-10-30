@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	 table{
+            width: 100%;
+            
+        }
+        th{
+            border: 2px solid;
+        }
+        td{
+            border: 2px solid;
+        }
+        body{
+            background-color: rgb(196, 171, 139);
+        }
+</style>
+</head>
+<body>
+ <div>
+  		<table>
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Author</th>
+      <th scope="col">Language</th>
+      <th scope="col">Pages</th>
+      <th scope="col">Price</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr th:each="b :${book}">
+      <td th:text="${b.id}"></td>
+      <td th:text="${b.name}"></td>
+      <td th:text="${b.author}"></td>
+      <td th:text="${b.language}"></td>
+      <td th:text="${b.pages}"></td>
+      <td th:text="${b.price}"></td>
+    </tr>
+   </tbody>
+</table>
+  </div>
+
+</body>
+</html>

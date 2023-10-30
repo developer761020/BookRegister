@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.reg{
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    justify-content:center;
+    align-items:center;
+    
+}
+span{
+    background-color: rgb(218, 199, 175);
+    border-radius: 20%;
+}
+.h{
+    margin-left: 80px;
+    color: rgb(37, 1, 1);
+    text-shadow: 0 0 3px;
+    
+}
+.box{
+    height: 30px;
+    width: 290px;
+    background-color: rgb(201, 178, 159);
+    
+
+}
+.sub{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(201, 178, 159);
+
+}
+body{
+    background-image: url(../images/regbook.jpg);
+    background-position: center;
+    background-size: cover;
+}
